@@ -1,5 +1,5 @@
-# ============================================================================ #
-#                       Compiler and flags                                     #
+# ================================================= #
+# Compiler and flags                                     #
 # ============================================================================ #
 CC = gcc
 CFLAGS = -Wall -Werror -Wextra -pedantic
@@ -62,7 +62,7 @@ all: $(EXEC)
 $(EXEC): $(OBJ)
 	@$(CC) $(CFLAGS) $(FLAGEDIT) $(FLAGEXC) $(FLAGEXO)
 	@echo "📚 Create $(EXEC)!"
-	@printf "$(LF)🎉 $(FG_TEXT)Successfully created $(FG_TEXT_PRIMARY)$(EXEC) -> MakeFile by zrdouane!\n"
+	@printf "$(LF)🎉 $(FG_TEXT)Successfully created $(FG_TEXT_PRIMARY)$(EXEC) -> MakeFile by Demiso!\n"
     
     
 %.o: %.c
@@ -72,12 +72,12 @@ $(EXEC): $(OBJ)
 
 clean:
 	@$(RM) $(OBJ) $(EXEC)
-	@printf "$(LF)🧹 $(FG_TEXT)Cleaning $(FG_TEXT_PRIMARY)$(EXEC) Object files...  -> MakeFile by zrdouane!\n"
+	@printf "$(LF)🧹 $(FG_TEXT)Cleaning $(FG_TEXT_PRIMARY)$(EXEC) Object files...  -> MakeFile by Demiso!\n"
 
 betty:
 	@printf "$(LF)🔎 $(FG_TEXT)Checking code style with $(FG_TEXT_PRIMARY)betty $(FG_TEXT)...\n"
 	@$(foreach file,$(SRC),$(BETTY) $(file) && printf "$(FG_TEXT_PRIMARY)$(FG_TEXT)$(file)\n" || printf "$(FG_TEXT_ERROR)✘$(NO_COLOR) $(file)\n";)
-	@printf "$(LF)🔎 $(FG_TEXT_PRIMARY)Finished checking code style! -> MakeFile by zrdouane!\n"
+	@printf "$(LF)🔎 $(FG_TEXT_PRIMARY)Finished checking code style! -> MakeFile by Demiso!\n"
 
 valgrind: $(EXEC)
-	$(VALGRIND) $(VALGRIND_FLAG) ./$(EXEC) by zrdouane
+	$(VALGRIND) $(VALGRIND_FLAG) ./$(EXEC) by Demiso
