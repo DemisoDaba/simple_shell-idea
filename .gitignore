@@ -1,0 +1,4 @@
+main.c
+*.sh
+.out
+*~
