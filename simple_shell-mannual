@@ -1,0 +1,60 @@
+.TH HSH 1 "12 May 2023" "1.0" "Simple_shell User Manual"
+.SH NAME:
+.B hsh - Simple_shell
+.br
+.SH SYNOPSIS:
+.B ./hsh
+[command] [options]
+.br
+.SH COPYRIGHT:
+.B hsh
+is Copyright (C) Demiso Dugassa , Prince Onuh
+.br
+.SH DESCRIPTION:
+.B hsh
+(Simple Shell) ALX SE Africa  project to learn the operation of shell making a minimalist version of it.
+.br
+.SH ARGUMENTS:
+.B exit:
+quits the program.
+
+.B ls:
+list directory contents.
+
+.B exit:
+quits the program, exits the shell.
+
+.B env:
+prints the environment variables
+
+.br
+.SH EXAMPLE:
+.IP
+
+$./hsh
+
+$pwd
+
+/home/vagrant/simple_shell
+
+$
+
+$/bin/pwd
+
+/home/vagrant/simple_shell
+
+$
+
+.br
+.SH SEE ALSO:
+.I sh(1)
+,
+.I bash(1)
+,
+.I _printf(3)
+.br
+.SH BUGS:
+No known bugs, if you find any report it to demo.nkmt1@gmail.com
+
+.SH AUTHORS:
+Demiso Dugassa , Prince Onuh
