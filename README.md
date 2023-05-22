@@ -20,7 +20,7 @@ In this shell, the following conversions of operators are available:
 ## The tests ⚙
 Clone the repo:
 
-`$ git clone https://github.com/DemisoDaba/simple-shell.git`
+`$ git clone https://github.com/DemisoDaba/simple-shell_ide.git`
 
 Run this command:
 
