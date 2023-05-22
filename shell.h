@@ -4,7 +4,6 @@
 #define TOK_BUFSIZE 1024
 #define TOK_DELIM " \t\r\n\a"
 
-
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
