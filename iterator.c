@@ -1,6 +1,5 @@
 #include "shell.h"
 
-
 /**
  * loop_shell - main function
  * Return: Always 0.
